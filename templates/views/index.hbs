@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+  
+  {{>navbar}}
+  
+  {{!-- hERO SECTION START --}}
+  <div class="container-fuild mt-5">
+    <div class="row col-md-10 col-12 mx-auto">
+     <div class="row">
+      <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+       <h1>We will help you To</h1>
+       <h1> grow Your business </h1>
+       <p>We are the team o <span class="bold-style">Profesional Developer✌</span></p>
+       <button class="btn-style btn-primary">Read More</button>
+      </div>
+      
+      <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+          <figure>
+            <img src="images/growth.svg" alt="hero" srcset="">
+          </figure>
+      </div>
+     </div>
+    </div>
+    </div>
+
+{{!-- HERO SECTION END  --}}
+    
+    {{!--aBOUT US START 
+     --}}
+    {{>about}}
+
+   {{!-- About us end  --}}
+
+    {{!--aBOUT US START 
+     --}}
+    {{>service}}
+
+   {{!-- About us end  --}}
+     
+    {{!--map START 
+     --}}
+    {{>map}}
+
+   {{!-- map end  --}}
+
+   {{!--contact start 
+     --}}
+    {{>contact}}
+
+   {{!-- contact end  --}}
+  {{!-- footer --}}
+   {{>footer}}
+  {{!-- footer ends --}}
+<script src="../jq/jquery.js" type="text/javascript"></script>
+<script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+</html>
